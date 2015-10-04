@@ -1,0 +1,200 @@
+/* GLOBAL STYLES -----------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; 
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background:  linear-gradient(rgba(0,139,139, 0.8), rgba(0, 0, 0, 0.8)), url(../images/4.jpg) no-repeat fixed;
+	color: #111111;
+	font-size: 1.5rem;
+}
+
+h1, h2 {
+	font-size: 5rem;
+	font-family: "Nixie One", serif;
+	text-transform: uppercase;
+}
+
+.highlight {
+	color: #105952;
+}
+
+/*LINK STUFF*/
+
+a {
+	color: #8c9d87;
+	text-decoration: none;
+	transition: all 0.5s linear;
+}
+
+a:hover {
+	color: white;
+}
+
+
+
+a.active {
+  background: #177F75;
+  color: #222;
+}
+
+/* SHARED STYLES 
+-----------------*/
+.content-wrap {
+	max-width: 800px;
+	margin: 0 auto;
+	width:80%;
+	padding: 100px 0;
+}
+
+/* Overwrite some of the things in .content-wrap */ 
+nav, .about, footer {
+	background-color: #111111;
+	color: #efefef;
+} 
+
+/* HEADER 
+-----------------*/
+header {
+	background: url(../images/cypress.jpg) no-repeat fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0; /*top & bottom, left & right */
+	height: 100%;
+}
+
+
+header h1 {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 10px 40px; /*Top right bottom left*/
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 15rem;
+	color: black;
+	font-weight: 400;
+}
+
+/* LOGO 
+-----------------*/
+.logo {
+	font-family: "Nixie One", serif;
+	font-size: 24px;
+	border: 2px solid #8c9d87;
+	border-radius: 50%;
+	height: 60px;
+	padding-bottom: 7px;
+	width: 60px;
+	padding: 0;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	margin: 8px;
+}
+
+.logo:hover {
+	opacity: 0.5;
+	border-color: #177F75;
+	background: #111111;
+}
+
+
+/* NAV 
+-----------------*/
+nav {
+	/*To make the navigation the first layer*/
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+nav a {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	background: #177F75;
+}
+
+
+/* ABOUT
+-----------------*/
+.profile {
+	width: 250px;
+	padding-bottom: 7px;
+	border-radius: 50%;
+	float: right;
+	margin-left: 10px;
+}
+
+
+/* EXTRAS
+-----------------*/
+.extras {
+	height: 100%;
+}
+
+
+/* FOOTER/CONTACT
+-----------------*/
+footer {
+	text-align: center;
+}
+
+/* Social links with only icon fonts */
+.social-horizontal {
+	text-align: center;
+}
+.social-horizontal a {
+	display: inline-block;
+	padding: 20px;
+	margin: 10px;
+}
+.social-horizontal i {
+	font-size: 10rem;
+}
+.social-horizontal i:hover {
+	color: #177F75;
+}
+
+/* Copyright */
+.copyright {
+	margin-top: 75px;
+	font-size: 1.4rem;
+}
+
+
+/* Medium screens */
+
+/* min-width 641px, medium screens */
+
+@media only screen and (max-width: 641px) {
+	html {
+		font-size: 12px;
+	}
+	header h1 {
+		font-size: 6rem;
+	}
+	.social-horizontal i {
+		font-size: 35px;
+	}
+	nav a {
+		padding:5px;
+	}
+
+}
+
