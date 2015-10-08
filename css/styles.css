@@ -181,10 +181,10 @@ footer {
 Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {
-	font-size: 110%;
 	color: red;
 }
 
-.mobi footer p {
-	font-size: 80%;
+.mobi section #about{
+	color: blue;
+
 }
