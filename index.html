@@ -4,13 +4,34 @@
   <title>Judith Yeo</title>
   <!-- Get the fonts -->
   <link href='https://fonts.googleapis.com/css?family=Satisfy|Roboto|Pacifico' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:300|Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to JQuery -->
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="js/index.js"></script>
+
+  <!-- Link to Restive.JS -->
+  <script type="text/javascript" src="restive.min.js"></script>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $('body').restive({
+        breakpoints: ['240', '320', '480', '640', '720', '960', '1280'],
+        classes: ['rp_240', 'rp_320', 'rp_480', 'rp_640', 'rp_720', 'rp_960', 'rp_1280'],
+        turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet',
+        force_dip: true
+      });
+    });
+  </script>
+
+  <!-- Link to Animation -->
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Icon-->
   <link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/> 
 </head>
 <body>

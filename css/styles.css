@@ -177,24 +177,17 @@ footer {
 	font-size: 1.4rem;
 }
 
+/*------------------------------------------
+Mobile - for Restive.JS
+-------------------------------------------*/
+.mobi {font-size: 110%;}
+ 
+.mobi section article {width: 100%; padding: 0 10px;}
+ 
+.mobi.tablet header #hs-level-1-content .logo {text-align: right;}
+.mobi.phone header #hs-level-1-content .logo {text-align: center;}
+ 
+.mobi.phone header #hs-level-2 {height: auto;}
 
-/* Medium screens */
-
-/* min-width 641px, medium screens */
-
-@media only screen and (max-width: 641px) {
-	html {
-		font-size: 12px;
-	}
-	header h1 {
-		font-size: 6rem;
-	}
-	.social-horizontal i {
-		font-size: 35px;
-	}
-	nav a {
-		padding:5px;
-	}
-
-}
+.mobi footer p {font-size: 80%;}
 
