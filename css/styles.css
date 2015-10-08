@@ -181,6 +181,35 @@ footer {
 Mobile - for Restive.JS
 -------------------------------------------*/
 
-.mobi.phone header {
-	background: none;
+@media only screen and (min-width: 1200px) {
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+
+/* Medium */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+/* Small */
+@media only screen and (max-width: 479px) {
+	body {
+		min-width:302px;
+	}
+
+	header h1 {
+		color: blue;
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 319px) {
+	header h1 {
+		color: blue;
+		font-size: 35px;
+	}
+	
 }
