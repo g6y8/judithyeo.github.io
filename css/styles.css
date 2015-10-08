@@ -180,12 +180,13 @@ footer {
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
-.mobi {
+.mobi body {
 	font-family: "Nixie-One", serif; 
 	color: red;
+	width: auto;
 }
 
-.mobi header {
+.mobi header #name {
 	font-size: 15px;	
 	color: red;
 }
