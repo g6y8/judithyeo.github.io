@@ -190,3 +190,7 @@ Mobile - for Restive.JS
 	padding: 0 10px;
 
 }
+
+.mobi body {
+	width: 100%;	
+}
