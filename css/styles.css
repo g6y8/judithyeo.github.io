@@ -181,7 +181,7 @@ footer {
 Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi body {
-	font-family: "Nixie-One", serif; 
+	font-size: 120px;
 	color: red;
 	width: auto;
 }
