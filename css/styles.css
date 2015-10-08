@@ -184,6 +184,6 @@ Mobile - for Restive.JS
 	color: red;
 }
 
-.mobi section #about{
+.mobi.phone.about{
 	color: blue;
 }
