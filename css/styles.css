@@ -180,14 +180,7 @@ footer {
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
-.mobi {font-size: 110%;}
- 
-.mobi section article {width: 100%; padding: 0 10px;}
- 
-.mobi.tablet header #hs-level-1-content .logo {text-align: right;}
-.mobi.phone header #hs-level-1-content .logo {text-align: center;}
- 
-.mobi.phone header #hs-level-2 {height: auto;}
-
-.mobi footer p {font-size: 80%;}
-
+.mobi {
+	font-family: "Nixie-One", serif; 
+	color: red;
+}
