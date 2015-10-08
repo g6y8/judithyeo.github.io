@@ -185,12 +185,6 @@ Mobile - for Restive.JS
 	color: red;
 }
 
-.mobi header {
-	width: auto;
-	padding: 0 10px;
-
-}
-
 .mobi.phone header #name {
 	font-size: 15px;	
 	color: red;
