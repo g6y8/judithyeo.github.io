@@ -180,9 +180,11 @@ footer {
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
+
+/*
 .mobi {
 	color: red;
-	/*font-family: 'Satisfy'; */
+	font-family: 'Satisfy'; 
 }
 
 .mobi #about{
@@ -193,3 +195,4 @@ Mobile - for Restive.JS
 .mobi footer p {
 	color: red;
 }
+*/
