@@ -183,10 +183,5 @@ Mobile - for Restive.JS
 .mobi body {
 	font-size: 120px;
 	color: red;
-	width: 100%;
-}
-
-.mobi header h1{
-	font-size: 15px;	
-	color: red;
+	width: auto;
 }
