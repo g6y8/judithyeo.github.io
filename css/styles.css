@@ -188,6 +188,12 @@ Mobile - for Restive.JS
 	font-family: 'Satisfy'; 
 }
 
+.mobi header h1 {
+	font-size: 25px;
+	color: red;
+}
+
+
 .mobi body {
 	width: 100%;
 	background: url(../images/1.jpg) no-repeat fixed;
