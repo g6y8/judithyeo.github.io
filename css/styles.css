@@ -180,7 +180,7 @@ footer {
 /*------------------------------------------
 Mobile - for Restive.JS
 -------------------------------------------*/
-.mobi body {
+.mobi {
 	font-size: 120px;
 	color: red;
 	width: auto;
