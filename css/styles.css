@@ -191,7 +191,7 @@ Mobile - for Restive.JS
 
 }
 
-.mobi.phone header #home{
+.mobi header h1 {
 	font-size: 25px;	
 	color: blue;
 }
