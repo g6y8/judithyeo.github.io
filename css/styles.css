@@ -182,7 +182,7 @@ Mobile - for Restive.JS
 -------------------------------------------*/
 .mobi {
 	color: red;
-	font-family: "Pacifico", cursive; 
+	font-family: 'Satisfy'; 
 }
 
 .mobi #about{
@@ -190,5 +190,5 @@ Mobile - for Restive.JS
 }
 
 .mobi footer p {
-	font-size: 80%;
+	color: red;
 }
