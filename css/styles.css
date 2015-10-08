@@ -177,24 +177,37 @@ footer {
 	font-size: 1.4rem;
 }
 
+/* ******************** 16 - Responsive Settings ******************** */
+/* Large */
 
-/* Medium screens */
+/* Large */
+@media only screen and (min-width: 1200px) {
 
-/* min-width 641px, medium screens */
-
-@media only screen and (max-width: 641px) {
-	html {
-		font-size: 12px;
-	}
-	header h1 {
-		font-size: 6rem;
-	}
-	.social-horizontal i {
-		font-size: 35px;
-	}
-	nav a {
-		padding:5px;
-	}
-
+	
 }
 
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+}
+
+/* Medium */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+/* Small */
+@media only screen and (max-width: 479px) {
+	body {
+		min-width:302px;
+	}
+	
+}
+
+@media only screen and (max-width: 319px) {
+	header h1 {
+		color: blue;
+		font-size: 35px;
+	}
+	
+}
