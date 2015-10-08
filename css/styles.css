@@ -181,8 +181,12 @@ footer {
 Mobile - for Restive.JS
 -------------------------------------------*/
 
-.mobi header h1 {
+.mobi header {
 	font-size: 25px;
+}
+
+.mobi #about{
+	color: blue;
 }
 
 /*
