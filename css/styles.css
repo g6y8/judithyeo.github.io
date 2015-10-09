@@ -198,12 +198,13 @@ Mobile - for Restive.JS
 
 /* Medium */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	html {
-		font-size: 12px;
-	}
-
 	body {
 		min-width: 400px;
+	}
+
+	header h1 {
+		font-size: 3.5rem;
+		color: yellow;
 	}
 
 }
