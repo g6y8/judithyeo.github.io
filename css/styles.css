@@ -199,7 +199,7 @@ Mobile - for Restive.JS
 /* Medium */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	body {
-		width: 400px;
+		min-width: 400px;
 	}
 }
 
