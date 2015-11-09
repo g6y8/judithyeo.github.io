@@ -202,8 +202,17 @@ Mobile - for Restive.JS
 	}
 
 	header h1 {
-		font-size: 5.5rem;
+		font-size: 6.5rem;
 	}
+
+	.profile {
+		width: 350px;
+		padding-bottom: 7px;
+		border-radius: 50%;
+		float: center;
+		margin-left: 10px;
+	}
+
 
 }
 
@@ -214,7 +223,7 @@ Mobile - for Restive.JS
 	}
 
 	header h1 {
-		font-size: 3.5rem;
+		font-size: 4.5rem;
 
 	}
 
@@ -224,6 +233,14 @@ Mobile - for Restive.JS
 
 	.social-horizontal i {
 		font-size: 3.5rem;
+	}
+
+	.profile {
+		width: 300px;
+		padding-bottom: 7px;
+		border-radius: 50%;
+		float: center;
+		margin-left: 10px;
 	}
 
 }
