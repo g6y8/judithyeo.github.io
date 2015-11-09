@@ -191,7 +191,7 @@ Mobile - for Restive.JS
 		min-width: 690px;
 	}	
 	header h1 {
-		font-size: 4.5rem;
+		font-size: 7.5rem;
 	}
 }
 
@@ -202,7 +202,7 @@ Mobile - for Restive.JS
 	}
 
 	header h1 {
-		font-size: 6.5rem;
+		font-size: 7.5rem;
 	}
 
 	.profile {
@@ -236,7 +236,7 @@ Mobile - for Restive.JS
 	}
 
 	.profile {
-		width: 300px;
+		width: 315px;
 		padding-bottom: 7px;
 		border-radius: 50%;
 		float: center;
